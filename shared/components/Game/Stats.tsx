@@ -200,15 +200,15 @@ const Stats: React.FC = () => {
   ];
 
   return (
-    <div className='min-h-screen w-full bg-[var(--bg-color)] px-4 py-8 md:py-12'>
-      <div className='max-w-7xl mx-auto'>
+    <div className='min-h-screen w-full bg-[var(--bg-color)] px-4 py-8 md:py-12 flex items-center justify-center'>
+      <div className='max-w-7xl mx-auto w-full'>
         {/* Header */}
         <button
           onClick={() => {
             playClick();
             toggleStats();
           }}
-          className='group flex items-center gap-3 mb-8 md:mb-12 justify-center w-full hover:cursor-pointer'
+          className='group flex items-center gap-3  justify-center w-full hover:cursor-pointer'
         >
           <ChevronsLeft
             size={32}
