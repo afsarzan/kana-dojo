@@ -128,7 +128,7 @@ const MobileBottomBar = () => {
                   className={clsx(
                     baseIconClasses,
                     pulseClasses,
-                    isPatreon && 'text-blue-500 hover:text-blue-400'
+                    isPatreon && 'text-blue-500 '
                   )}
                   onClick={() => handleClick(link.url)}
                 />
@@ -139,7 +139,7 @@ const MobileBottomBar = () => {
                     baseIconClasses,
                     pulseClasses,
                     isDonate &&
-                      'motion-safe:animate-pulse text-red-500 fill-current hover:text-red-500'
+                      'motion-safe:animate-pulse text-red-500 fill-current '
                   )}
                   onClick={() => handleClick(link.url)}
                 />
