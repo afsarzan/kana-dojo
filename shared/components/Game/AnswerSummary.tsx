@@ -22,28 +22,28 @@ const springConfig = {
 const slideInVariants = {
   hidden: {
     opacity: 0,
-    x: 60
+    x: 100
   },
   visible: {
     opacity: 1,
     x: 0,
     transition: {
       type: 'spring' as const,
-      stiffness: 300,
-      damping: 30,
-      mass: 0.8,
-      staggerChildren: 0.1,
-      delayChildren: 0.05
+      stiffness: 500,
+      damping: 35,
+      mass: 0.5,
+      staggerChildren: 0.08,
+      delayChildren: 0.02
     }
   },
   exit: {
     opacity: 0,
-    x: -60,
+    x: -100,
     transition: {
       type: 'spring' as const,
-      stiffness: 400,
-      damping: 35,
-      mass: 0.6
+      stiffness: 600,
+      damping: 40,
+      mass: 0.4
     }
   }
 };
