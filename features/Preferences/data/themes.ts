@@ -1016,6 +1016,10 @@ const baseThemeSets: BaseThemeGroup[] = [
         secondaryColor: 'oklch(85.0% 0.065 90.0 / 1)'
       },
       {
+        id: 'moss-temple',
+        backgroundColor: 'oklch(22.0% 0.045 145.0 / 1)',
+        mainColor: 'oklch(65.0% 0.155 140.0 / 1)',
+        secondaryColor: 'oklch(55.0% 0.100 120.0 / 1)'},{
         id: 'geisha-grace',
         backgroundColor: 'oklch(18.0% 0.055 15.0 / 1)',
         mainColor: 'oklch(60.0% 0.210 25.0 / 1)',
